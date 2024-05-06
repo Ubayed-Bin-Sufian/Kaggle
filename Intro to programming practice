@@ -1,0 +1,287 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "b4031aa7",
+   "metadata": {
+    "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
+    "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
+    "execution": {
+     "iopub.execute_input": "2024-05-06T00:29:25.509923Z",
+     "iopub.status.busy": "2024-05-06T00:29:25.509521Z",
+     "iopub.status.idle": "2024-05-06T00:29:26.222092Z",
+     "shell.execute_reply": "2024-05-06T00:29:26.221041Z"
+    },
+    "papermill": {
+     "duration": 0.719898,
+     "end_time": "2024-05-06T00:29:26.224564",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:25.504666",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# This Python 3 environment comes with many helpful analytics libraries installed\n",
+    "# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n",
+    "# For example, here's several helpful packages to load\n",
+    "\n",
+    "import numpy as np # linear algebra\n",
+    "import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)\n",
+    "\n",
+    "# Input data files are available in the read-only \"../input/\" directory\n",
+    "# For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory\n",
+    "\n",
+    "import os\n",
+    "for dirname, _, filenames in os.walk('/kaggle/input'):\n",
+    "    for filename in filenames:\n",
+    "        print(os.path.join(dirname, filename))\n",
+    "\n",
+    "# You can write up to 20GB to the current directory (/kaggle/working/) that gets preserved as output when you create a version using \"Save & Run All\" \n",
+    "# You can also write temporary files to /kaggle/temp/, but they won't be saved outside of the current session"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d7127f75",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002339,
+     "end_time": "2024-05-06T00:29:26.229913",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.227574",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Data Types"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b1689f78",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002237,
+     "end_time": "2024-05-06T00:29:26.234653",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.232416",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Notes:**\n",
+    "Verify the data type with type()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "353167be",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-06T00:29:26.241700Z",
+     "iopub.status.busy": "2024-05-06T00:29:26.240665Z",
+     "iopub.status.idle": "2024-05-06T00:29:26.246882Z",
+     "shell.execute_reply": "2024-05-06T00:29:26.245526Z"
+    },
+    "papermill": {
+     "duration": 0.01201,
+     "end_time": "2024-05-06T00:29:26.249127",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.237117",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "14\n",
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 14\n",
+    "print(x)\n",
+    "print(type(x))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bd1d876c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00242,
+     "end_time": "2024-05-06T00:29:26.254138",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.251718",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**FLoat**\n",
+    "Whenever you write an number with a decimal point, Python recognizes it as a float data type."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "690ba0ed",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-06T00:29:26.260947Z",
+     "iopub.status.busy": "2024-05-06T00:29:26.260114Z",
+     "iopub.status.idle": "2024-05-06T00:29:26.265290Z",
+     "shell.execute_reply": "2024-05-06T00:29:26.264276Z"
+    },
+    "papermill": {
+     "duration": 0.010753,
+     "end_time": "2024-05-06T00:29:26.267394",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.256641",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.0\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = 5.\n",
+    "print(y)\n",
+    "print(type(y))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a82c502a",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002382,
+     "end_time": "2024-05-06T00:29:26.272373",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.269991",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Strings**\n",
+    "\n",
+    "* Note that the quotation marks are not included when calculating the length. len() is used for strings.\n",
+    "* If you multiply a string by a boolean with value True, it just returns that same string. And if you multiply a string by a boolean with value False, it returns an empty string (or a string with length zero)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "162a9190",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-06T00:29:26.278709Z",
+     "iopub.status.busy": "2024-05-06T00:29:26.278402Z",
+     "iopub.status.idle": "2024-05-06T00:29:26.283112Z",
+     "shell.execute_reply": "2024-05-06T00:29:26.282116Z"
+    },
+    "papermill": {
+     "duration": 0.010405,
+     "end_time": "2024-05-06T00:29:26.285313",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.274908",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "z = \"Ubayed here. How are you?\"\n",
+    "print(len(z))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1b72c76b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.002446,
+     "end_time": "2024-05-06T00:29:26.290574",
+     "exception": false,
+     "start_time": "2024-05-06T00:29:26.288128",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Boolean**\n",
+    "\n",
+    "When you add booleans, adding False is equivalent to adding 0, and adding True is equivalent to adding 1."
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [],
+   "dockerImageVersionId": 30698,
+   "isGpuEnabled": false,
+   "isInternetEnabled": false,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.13"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 3.728987,
+   "end_time": "2024-05-06T00:29:26.711633",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2024-05-06T00:29:22.982646",
+   "version": "2.5.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
