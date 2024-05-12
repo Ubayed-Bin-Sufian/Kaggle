@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "b4031aa7",
+   "id": "39fde89e",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2024-05-06T00:29:25.509923Z",
-     "iopub.status.busy": "2024-05-06T00:29:25.509521Z",
-     "iopub.status.idle": "2024-05-06T00:29:26.222092Z",
-     "shell.execute_reply": "2024-05-06T00:29:26.221041Z"
+     "iopub.execute_input": "2024-05-12T06:36:40.071978Z",
+     "iopub.status.busy": "2024-05-12T06:36:40.071518Z",
+     "iopub.status.idle": "2024-05-12T06:36:40.892909Z",
+     "shell.execute_reply": "2024-05-12T06:36:40.891802Z"
     },
     "papermill": {
-     "duration": 0.719898,
-     "end_time": "2024-05-06T00:29:26.224564",
+     "duration": 0.831007,
+     "end_time": "2024-05-12T06:36:40.895298",
      "exception": false,
-     "start_time": "2024-05-06T00:29:25.504666",
+     "start_time": "2024-05-12T06:36:40.064291",
      "status": "completed"
     },
     "tags": []
@@ -45,13 +45,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "d7127f75",
+   "id": "e1041225",
    "metadata": {
     "papermill": {
-     "duration": 0.002339,
-     "end_time": "2024-05-06T00:29:26.229913",
+     "duration": 0.004486,
+     "end_time": "2024-05-12T06:36:40.905099",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.227574",
+     "start_time": "2024-05-12T06:36:40.900613",
      "status": "completed"
     },
     "tags": []
@@ -62,13 +62,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b1689f78",
+   "id": "a1c567ee",
    "metadata": {
     "papermill": {
-     "duration": 0.002237,
-     "end_time": "2024-05-06T00:29:26.234653",
+     "duration": 0.004484,
+     "end_time": "2024-05-12T06:36:40.914381",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.232416",
+     "start_time": "2024-05-12T06:36:40.909897",
      "status": "completed"
     },
     "tags": []
@@ -81,19 +81,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "353167be",
+   "id": "190bae8f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-05-06T00:29:26.241700Z",
-     "iopub.status.busy": "2024-05-06T00:29:26.240665Z",
-     "iopub.status.idle": "2024-05-06T00:29:26.246882Z",
-     "shell.execute_reply": "2024-05-06T00:29:26.245526Z"
+     "iopub.execute_input": "2024-05-12T06:36:40.925898Z",
+     "iopub.status.busy": "2024-05-12T06:36:40.925064Z",
+     "iopub.status.idle": "2024-05-12T06:36:40.931273Z",
+     "shell.execute_reply": "2024-05-12T06:36:40.930038Z"
     },
     "papermill": {
-     "duration": 0.01201,
-     "end_time": "2024-05-06T00:29:26.249127",
+     "duration": 0.014314,
+     "end_time": "2024-05-12T06:36:40.933290",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.237117",
+     "start_time": "2024-05-12T06:36:40.918976",
      "status": "completed"
     },
     "tags": []
@@ -116,13 +116,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bd1d876c",
+   "id": "f0b95758",
    "metadata": {
     "papermill": {
-     "duration": 0.00242,
-     "end_time": "2024-05-06T00:29:26.254138",
+     "duration": 0.004623,
+     "end_time": "2024-05-12T06:36:40.942861",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.251718",
+     "start_time": "2024-05-12T06:36:40.938238",
      "status": "completed"
     },
     "tags": []
@@ -135,19 +135,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "690ba0ed",
+   "id": "b9751067",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-05-06T00:29:26.260947Z",
-     "iopub.status.busy": "2024-05-06T00:29:26.260114Z",
-     "iopub.status.idle": "2024-05-06T00:29:26.265290Z",
-     "shell.execute_reply": "2024-05-06T00:29:26.264276Z"
+     "iopub.execute_input": "2024-05-12T06:36:40.954622Z",
+     "iopub.status.busy": "2024-05-12T06:36:40.953973Z",
+     "iopub.status.idle": "2024-05-12T06:36:40.959168Z",
+     "shell.execute_reply": "2024-05-12T06:36:40.957987Z"
     },
     "papermill": {
-     "duration": 0.010753,
-     "end_time": "2024-05-06T00:29:26.267394",
+     "duration": 0.013492,
+     "end_time": "2024-05-12T06:36:40.961256",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.256641",
+     "start_time": "2024-05-12T06:36:40.947764",
      "status": "completed"
     },
     "tags": []
@@ -170,13 +170,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "a82c502a",
+   "id": "3ca2e511",
    "metadata": {
     "papermill": {
-     "duration": 0.002382,
-     "end_time": "2024-05-06T00:29:26.272373",
+     "duration": 0.004464,
+     "end_time": "2024-05-12T06:36:40.970622",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.269991",
+     "start_time": "2024-05-12T06:36:40.966158",
      "status": "completed"
     },
     "tags": []
@@ -191,19 +191,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "162a9190",
+   "id": "ac2120ed",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2024-05-06T00:29:26.278709Z",
-     "iopub.status.busy": "2024-05-06T00:29:26.278402Z",
-     "iopub.status.idle": "2024-05-06T00:29:26.283112Z",
-     "shell.execute_reply": "2024-05-06T00:29:26.282116Z"
+     "iopub.execute_input": "2024-05-12T06:36:40.981907Z",
+     "iopub.status.busy": "2024-05-12T06:36:40.981311Z",
+     "iopub.status.idle": "2024-05-12T06:36:40.986675Z",
+     "shell.execute_reply": "2024-05-12T06:36:40.985625Z"
     },
     "papermill": {
-     "duration": 0.010405,
-     "end_time": "2024-05-06T00:29:26.285313",
+     "duration": 0.013262,
+     "end_time": "2024-05-12T06:36:40.988560",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.274908",
+     "start_time": "2024-05-12T06:36:40.975298",
      "status": "completed"
     },
     "tags": []
@@ -224,13 +224,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1b72c76b",
+   "id": "3d561276",
    "metadata": {
     "papermill": {
-     "duration": 0.002446,
-     "end_time": "2024-05-06T00:29:26.290574",
+     "duration": 0.004637,
+     "end_time": "2024-05-12T06:36:40.998055",
      "exception": false,
-     "start_time": "2024-05-06T00:29:26.288128",
+     "start_time": "2024-05-12T06:36:40.993418",
      "status": "completed"
     },
     "tags": []
@@ -239,6 +239,349 @@
     "**Boolean**\n",
     "\n",
     "When you add booleans, adding False is equivalent to adding 0, and adding True is equivalent to adding 1."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4282220c",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004548,
+     "end_time": "2024-05-12T06:36:41.007357",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.002809",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# Lists"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1b318c5b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004571,
+     "end_time": "2024-05-12T06:36:41.016829",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.012258",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "list will make it easier to:\n",
+    "\n",
+    "1. get an item at a specified position (first, second, third, etc),\n",
+    "1. check the number of items, and\n",
+    "1. add and remove items."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "cc0e500d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.028500Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.027917Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.032704Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.031842Z"
+    },
+    "papermill": {
+     "duration": 0.013097,
+     "end_time": "2024-05-12T06:36:41.034748",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.021651",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "flowers_list = [\"pink primrose\", \"hard-leaved pocket orchid\", \"canterbury bells\", \"sweet pea\", \"english marigold\", \"tiger lily\", \"moon orchid\", \"bird of paradise\", \"monkshood\", \"globe thistle\"]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6e770839",
+   "metadata": {
+    "papermill": {
+     "duration": 0.00489,
+     "end_time": "2024-05-12T06:36:41.046107",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.041217",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Indexing**\n",
+    "\n",
+    "We can refer to any item in the list according to its position in the list (first, second, third, etc). This is called **indexing.**\n",
+    "\n",
+    "Note that Python uses zero-based indexing, which means that:\n",
+    "\n",
+    "1. to pull the first entry in the list, you use 0,\n",
+    "1. to pull the second entry in the list, you use 1, and\n",
+    "1. to pull the final entry in the list, you use one less than the length of the list."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "ad5292b8",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.058062Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.057437Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.063061Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.061778Z"
+    },
+    "papermill": {
+     "duration": 0.014348,
+     "end_time": "2024-05-12T06:36:41.065307",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.050959",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "First entry: pink primrose\n",
+      "Second entry: hard-leaved pocket orchid\n",
+      "Last entry: globe thistle\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"First entry:\", flowers_list[0])\n",
+    "print(\"Second entry:\", flowers_list[1])\n",
+    "\n",
+    "# The list has length ten, so we refer to final entry with 9\n",
+    "print(\"Last entry:\", flowers_list[9])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "395ac695",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004745,
+     "end_time": "2024-05-12T06:36:41.075087",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.070342",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Slicing**\n",
+    "\n",
+    "You can also pull a segment of a list (for instance, the first three entries or the last two entries). This is called slicing. For instance:\n",
+    "\n",
+    "1. to pull the first x entries, you use [:x], and\n",
+    "1. to pull the last y entries, you use [-y:]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "b9d1e043",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.086692Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.086310Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.091110Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.090123Z"
+    },
+    "papermill": {
+     "duration": 0.01375,
+     "end_time": "2024-05-12T06:36:41.093886",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.080136",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "First three entries: ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells']\n",
+      "Final two entries: ['monkshood', 'globe thistle']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"First three entries:\", flowers_list[:3])\n",
+    "print(\"Final two entries:\", flowers_list[-2:])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f162f35d",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004767,
+     "end_time": "2024-05-12T06:36:41.103724",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.098957",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Removing items**\n",
+    "\n",
+    "Remove an item from a list with .remove(), and put the item you would like to remove in parentheses."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "78354eec",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.115160Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.114811Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.119630Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.118627Z"
+    },
+    "papermill": {
+     "duration": 0.013479,
+     "end_time": "2024-05-12T06:36:41.122174",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.108695",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['pink primrose', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'globe thistle']\n"
+     ]
+    }
+   ],
+   "source": [
+    "flowers_list.remove(\"hard-leaved pocket orchid\")\n",
+    "print(flowers_list)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8716e9f3",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004918,
+     "end_time": "2024-05-12T06:36:41.132536",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.127618",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Adding items**\n",
+    "\n",
+    "Add an item to a list with .append(), and put the item you would like to add in parentheses."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "f4c89cab",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.144862Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.143842Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.149764Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.148610Z"
+    },
+    "papermill": {
+     "duration": 0.014143,
+     "end_time": "2024-05-12T06:36:41.151775",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.137632",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['pink primrose', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'globe thistle', 'water lily']\n"
+     ]
+    }
+   ],
+   "source": [
+    "flowers_list.append(\"water lily\")\n",
+    "print(flowers_list)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "185377a7",
+   "metadata": {
+    "papermill": {
+     "duration": 0.004893,
+     "end_time": "2024-05-12T06:36:41.161799",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.156906",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "**Other methods**\n",
+    "\n",
+    "You can actually use Python to quickly turn a string into a list with .split(). In the parentheses, we need to provide the character should be used to mark the end of one list item and the beginning of another, and enclose it in quotation marks. In this case, that character is a comma."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "c7b8a970",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2024-05-12T06:36:41.174276Z",
+     "iopub.status.busy": "2024-05-12T06:36:41.173769Z",
+     "iopub.status.idle": "2024-05-12T06:36:41.179558Z",
+     "shell.execute_reply": "2024-05-12T06:36:41.178103Z"
+    },
+    "papermill": {
+     "duration": 0.014597,
+     "end_time": "2024-05-12T06:36:41.181629",
+     "exception": false,
+     "start_time": "2024-05-12T06:36:41.167032",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 'moon orchid', 'bird of paradise', 'monkshood', 'globe thistle']\n"
+     ]
+    }
+   ],
+   "source": [
+    "flowers = \"pink primrose,hard-leaved pocket orchid,canterbury bells,sweet pea,english marigold,tiger lily,moon orchid,bird of paradise,monkshood,globe thistle\"\n",
+    "print(flowers.split(\",\"))"
    ]
   }
  ],
@@ -271,14 +614,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.728987,
-   "end_time": "2024-05-06T00:29:26.711633",
+   "duration": 4.14391,
+   "end_time": "2024-05-12T06:36:41.606410",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-05-06T00:29:22.982646",
+   "start_time": "2024-05-12T06:36:37.462500",
    "version": "2.5.0"
   }
  },
